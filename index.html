@@ -30,7 +30,6 @@
   <body>
     <nav class="navbar fixed-top navbar-light bg-light">
       <button class="btn btn-primary" onclick="playAudio(this)" type="button">Play Music</button>
-      <a class="navbar-brand" href="#">Play Game</a>
       <button class="btn btn-info" onclick="myFunction()">Light/dark mode</button>
     </nav>
     </br>
@@ -59,6 +58,7 @@
 
     <div class="container-custom">
           <h1>Tic-Tac-Toe</h1>
+          <br>
           <h4>Scoreboard</h4>
 
           <table class="table">
@@ -89,6 +89,7 @@
           </table>
 
       <br />
+      <h4>Play Game</h4>
       <div class="play-area">
         <div id="block_0" class="block"></div>
         <div id="block_1" class="block"></div>
@@ -110,6 +111,7 @@ function myFunction() {
 }
 </script>
       <h2 id="winner"></h2>
+      <br>
       <button onclick="reset_board()">RESET BOARD</button>
     </div>
 
@@ -119,3 +121,4 @@ function myFunction() {
     <script src="index.js"></script>
   </body>
 </html>
+
